@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],select,input[type="number"],input[type="submit"]{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid  #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]{
+    background-color: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgb(145, 51, 112);
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td,th{
+    border:1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    padding-left:50px ;
+    text-align:left;
+}
+
+th{
+    background-color: rgb(230, 20, 230);
+    color: aliceblue;
+}
